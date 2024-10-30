@@ -23,17 +23,23 @@ export const ContainerMenu = styled.ul`
 
 export const ContainerButton = styled.div`
   display: flex;
-  align-items: center;
+  flex-grow: 0.2;
+  gap: 1rem;
 `;
 
 export const ListItem = styled.li`
   cursor: pointer;
-  color: #000;
   &:hover {
-    color: #8f43ee;
     transform: scale(1.1);
   }
-  font-size: 20px;
-  transition: 0.3s ease;
-  /* box-shadow: 0px 0px 2px 2px lightblue; */
+  transition: 0.3s ease-in-out;
+`;
+
+export const Link = styled.a`
+  color: #1e1e1e;
+  &:hover {
+    color: #fff;
+    transform: scale(1.1);
+  }
+  transition: 0.3s ease-in-out;
 `;

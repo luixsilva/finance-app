@@ -11,16 +11,16 @@ const Home = () => {
         </S.ContainerHeader>
         <S.ContainerTitle>
           <Typography
-            fontSize={65}
-            fontFamily="Inter, sans-serif"
+            fontSize={55}
             fontWeight={700}
+            color="#1E1E1E"
           >
             Explore Novas
           </Typography>
           <Typography
-            fontSize={65}
-            fontFamily="Inter, sans-serif"
+            fontSize={55}
             fontWeight={700}
+            color="#1E1E1E"
           >
             Soluções Financeiras
           </Typography>

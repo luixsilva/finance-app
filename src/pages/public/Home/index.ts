@@ -14,7 +14,7 @@ export const Container = styled.div`
 export const ContainerTitle = styled.div`
   flex: 1;
   padding: 0;
-  margin-top: 4%;
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -22,7 +22,7 @@ export const ContainerTitle = styled.div`
 
 export const ContainerHeader = styled.div`
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 15%;
   margin-top: 2%;
   align-self: center;
   width: 100vw;

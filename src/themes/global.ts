@@ -6,11 +6,11 @@ body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Inter, sans-serif';
 }
 a{
     text-decoration: none;
     color: inherit;
+    font-family: 'Inter', sans-serif;
 }
 *{
     box-sizing: border-box;

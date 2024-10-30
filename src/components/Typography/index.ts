@@ -10,6 +10,6 @@ interface TypographyProps {
 export const Typography = styled.text<TypographyProps>`
   font-size: ${(props) => props.fontSize || 20}px;
   font-weight: ${(props) => props.fontWeight || 400};
-  font-family: ${(props) => props.fontFamily || "Arial"};
+  font-family: ${(props) => props.fontFamily || "Inter, sans-serif"};
   color: ${(props) => props.color || "black"};
 `;
